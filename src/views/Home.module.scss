@@ -1,0 +1,94 @@
+.adasas {
+    color: aqua;
+}
+.hehe {
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+}
+@font-face{
+    font-family: 'digital';
+    src:url('/static/ttf/digital7-mono.ttf');
+}
+.ratio {
+    float: left;
+    margin: 0 24px;
+    font-family: 'digital';
+    color: #f66;
+    font-size: 72px;
+    line-height: 1;
+}
+.all {
+    display: flex;
+    width: 258px;
+    margin: 0 auto;
+}
+.digital {
+    display: inline-block;
+    position: relative;
+    font-size: 80px;
+    font-family: 'digital';
+    text-align: right;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 16px;
+    line-height: 1;
+    .digital-content,
+    .digitalBg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .digitalContent {
+        color: #f66;
+    }
+    .digitalBg {
+        display: none;
+        color: #eee;
+    }
+}
+.btn {
+    display: block;
+    margin-bottom: 16px;
+}
+.time {
+    font-weight: 100;
+    font-family: 'digital';
+    color: #f66;
+    text-align: center;
+}
+.asd {
+    font-weight: 100;
+    font-family: 'digital';;
+    color: #f66;
+    font-size: 100px;
+    text-align: center;
+}
+.input-box {
+    float: left;
+    .count {
+        margin-bottom: 16px;
+        color: #f66;
+        font-size: 80px;
+        font-family: 'digital';
+        text-align: center;
+    }
+    .btns {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .add-btn {
+        font-size: 40px;
+        width: 88px;
+    }
+}
+.common-btns {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    text-align: center;
+}
