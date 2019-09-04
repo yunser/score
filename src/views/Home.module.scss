@@ -5,7 +5,9 @@
     text-align: center;
 }
 .container {
-    max-width: 1000px;
+    width: 258px;
+    max-width: 100%;
+    // max-width: 1000px;
     margin: 0 auto;
     padding: 16px;
 }
@@ -23,7 +25,7 @@
 }
 .all {
     display: flex;
-    width: 258px;
+    // width: 258px;
     margin: 0 auto;
 }
 .digital {
@@ -90,5 +92,24 @@
     position: absolute;
     right: 16px;
     bottom: 16px;
+    text-align: center;
+}
+
+.vs {
+    display: flex;
+    margin-bottom: 24px;
+    .team {
+        flex-grow: 1;
+        // display: flex;
+        text-align: center;
+    }
+    .text {
+        width: 20px;
+        text-align: center;
+    }
+}
+.timeBox {
+    margin-bottom: 24px;
+    font-size: 48px;
     text-align: center;
 }
