@@ -5,9 +5,6 @@ import Home from './views/Home'
 import About from './views/About'
 import Record from './views/Record'
 
-import Page from './components/Page'
-
-
 import './App.css'
 
 class App extends Component {
