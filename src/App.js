@@ -6,10 +6,13 @@ import About from './views/About'
 import Record from './views/Record'
 import Renamer from './views/Renamer'
 
+<<<<<<< HEAD
 import Page from './components/Page'
 
 
 import './reset.css'
+=======
+>>>>>>> d199ba832f1fbe638a236ae2b153f4d7232146c0
 import './App.css'
 
 class App extends Component {
